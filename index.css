@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+html, body {
+    overflow-x: hidden !important;
+}
 body {
     color: white;
     background: linear-gradient(90deg, #2d2d2d, #000);
@@ -22,9 +25,9 @@ header {
     transition: .5s ease-in-out;
 }
 header.onScroll {
-    background: linear-gradient(90deg, rgb(228 42 140), rgb(228 42 90));
-    color: #fff;
-    border-color: #fff;
+    background: linear-gradient(90deg, #2d2d2d, #000);
+    color: rgb(228 42 140);
+    border-color: rgb(228 42 140);
 }
 
 .chamada {
