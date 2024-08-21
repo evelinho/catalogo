@@ -24,11 +24,6 @@ header {
     z-index: 999;
     transition: .5s ease-in-out;
 }
-header.onScroll {
-    background: linear-gradient(90deg, #2d2d2d, #000);
-    color: rgb(228 42 140);
-    border-color: rgb(228 42 140);
-}
 
 .chamada {
     background: linear-gradient(90deg, rgb(228 42 140), rgb(228 42 90));
